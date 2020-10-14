@@ -1,0 +1,68 @@
+nav.navbar-inverse {
+    border: none;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+html, body {
+    height: 100%;
+}
+
+.cover {
+    height: 50%;
+    background: url("img/sticker.jpeg") top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    box-shadow: inset 0 0 100px #000;
+}
+
+.cover-text {
+    text-align: center;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cover-text h1 {
+    margin: 0;
+    font-size: 60px;
+    text-shadow: 3px 3px 2px grey;
+}
+
+section.info {
+    font-family:Georgia, Times, serif;
+    margin: 30px auto;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 27px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.box {
+    padding: 0 0 7px 0;
+}
+
+form {
+    margin: 0 800px 0 0;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, Times, serif;
+}
+
+footer a {
+    color: dodgerblue;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
